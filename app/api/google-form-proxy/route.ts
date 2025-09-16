@@ -5,6 +5,9 @@ export async function POST(request: NextRequest) {
 
   const formData = await request.formData();
   const params = new URLSearchParams();
+  // Add the website parameter
+  params.append('website', 'County Wide Auto Parts');
+  // Add all other form data
   for (const [key, value] of formData.entries()) {
     params.append(key, value as string);
   }
