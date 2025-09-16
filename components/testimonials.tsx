@@ -4,27 +4,27 @@ export function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      name: "Michael Johnson",
-      role: "Ford F-150 Owner",
+      name: "Robert Wilson",
+      role: "Chevrolet Silverado Owner",
       content:
-        "I was skeptical about buying used auto parts online, but County Wide Auto Parts exceeded my expectations. The engine I purchased was in excellent condition and arrived faster than expected. Their customer service was outstanding throughout the process.",
+        "County Wide Auto Parts saved me thousands on my truck repair. Their engine replacement was in pristine condition and came with all the necessary accessories. Their team guided me through the entire process and even connected me with a trusted mechanic for installation. Incredible service!",
       rating: 5,
     },
     {
       id: 2,
-      name: "Sarah Williams",
-      role: "Toyota Camry Owner",
+      name: "Jennifer Davis",
+      role: "Honda Accord Owner",
       content:
-        "After a minor accident, I needed a new bumper for my Camry. County Wide Auto Parts had exactly what I needed at half the price of the dealership. The part matched perfectly and the shipping was free. I'll definitely be using them again!",
+        "I needed a transmission for my 2017 Accord and was worried about finding a quality used part. County Wide Auto Parts not only had the exact match, but they also provided detailed history and testing documentation. The part arrived well-packaged with a solid warranty. My car runs perfectly now!",
       rating: 5,
     },
     {
       id: 3,
-      name: "David Martinez",
-      role: "Professional Mechanic",
+      name: "Marcus Thompson",
+      role: "Auto Repair Shop Owner",
       content:
-        "As a mechanic, I need reliable parts at competitive prices. County Wide Auto Parts has become my go-to source for quality used OEM parts. Their warranty policy gives me confidence, and my customers are always satisfied with the results.",
-      rating: 4,
+        "As someone who runs a busy repair shop, I need reliable parts suppliers. County Wide Auto Parts has become our primary source for used OEM parts. Their inventory is extensive, prices are competitive, and they stand behind their products. My customers appreciate the cost savings without sacrificing quality.",
+      rating: 5,
     },
   ]
 
