@@ -42,7 +42,7 @@ export function SiteHeader() {
           <Link href="/" className="flex-shrink-0">
             <div className="flex items-center gap-3">
               <img 
-                src="/website-logo.png" 
+                src="/logo.jpg" 
                 alt="County Wide Auto Parts Logo"
                 className="h-12 w-12 md:h-16 md:w-16 object-contain"
               />

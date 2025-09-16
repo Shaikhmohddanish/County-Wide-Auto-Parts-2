@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   generator: 'County Wide Auto Parts',
   icons: {
     icon: [
-      { url: '/website-logo.png' }
+      { url: '/logo.jpg' }
     ]
   }
 }
