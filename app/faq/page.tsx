@@ -41,7 +41,7 @@ export default function FAQPage() {
                   <h3 className="font-semibold text-lg mb-2">{category.name}</h3>
                   <Button
                     variant="link"
-                    className="text-black hover:text-blue-700"
+                    className="text-black hover:text-black"
                     onClick={() => document.getElementById(category.id)?.scrollIntoView({ behavior: "smooth" })}
                   >
                     View Questions

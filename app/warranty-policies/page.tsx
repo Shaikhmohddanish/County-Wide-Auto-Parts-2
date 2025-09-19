@@ -28,7 +28,7 @@ export default function WarrantyPoliciesPage() {
                   </div>
                   <div className="ml-3">
                     <h3 className="text-lg font-medium text-teal-800">Our Warranty Promise</h3>
-                    <p className="mt-2 text-blue-700">
+                    <p className="mt-2 text-black">
                       At County wide auto parts, we stand behind the quality of our products. Our warranty is designed to
                       give you peace of mind with your purchase, knowing that we're committed to your satisfaction.
                     </p>
