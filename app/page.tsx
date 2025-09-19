@@ -46,7 +46,7 @@ export default function Home() {
                     Discover premium used OEM parts for all major vehicle makes and models. Save up to 70% compared to new parts with our 90-day warranty.
                   </p>
                   <div className="flex flex-col sm:flex-row justify-start gap-4">
-                    <Button asChild size="lg" className="bg-blue-500 hover:bg-blue-600 w-full sm:w-auto">
+                    <Button asChild size="lg" className="bg-black hover:bg-gray-900 w-full sm:w-auto">
                       <Link href="/parts">Browse Parts</Link>
                     </Button>
                     <Button
@@ -88,28 +88,28 @@ export default function Home() {
                 <p className="text-gray-600 mb-6">
                   Whether you're a DIY enthusiast, professional mechanic, or repair shop owner, we provide the parts you need with the service you deserve.
                 </p>
-                <Button asChild className="bg-blue-600 hover:bg-blue-700">
+                <Button asChild className="bg-black hover:bg-gray-700">
                   <Link href="/about">Learn More About Us</Link>
                 </Button>
               </div>
               <div className="md:w-1/2 grid grid-cols-2 gap-4">
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <ShieldCheck className="h-8 w-8 text-blue-600 mb-3" />
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <ShieldCheck className="h-8 w-8 text-black mb-3" />
                   <h3 className="font-semibold text-lg mb-2">Warranty Protection</h3>
                   <p className="text-gray-600 text-sm">All parts backed by our 90-day standard warranty with extended options available</p>
                 </div>
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <TruckIcon className="h-8 w-8 text-blue-600 mb-3" />
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <TruckIcon className="h-8 w-8 text-black mb-3" />
                   <h3 className="font-semibold text-lg mb-2">Fast Nationwide Shipping</h3>
                   <p className="text-gray-600 text-sm">Quick delivery to all 50 states with tracking provided on all orders</p>
                 </div>
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <DollarSign className="h-8 w-8 text-blue-600 mb-3" />
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <DollarSign className="h-8 w-8 text-black mb-3" />
                   <h3 className="font-semibold text-lg mb-2">Wholesale Pricing</h3>
                   <p className="text-gray-600 text-sm">Save 40-70% compared to new OEM parts without sacrificing quality</p>
                 </div>
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <Wrench className="h-8 w-8 text-blue-600 mb-3" />
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <Wrench className="h-8 w-8 text-black mb-3" />
                   <h3 className="font-semibold text-lg mb-2">Expert Support</h3>
                   <p className="text-gray-600 text-sm">Technical assistance from ASE-certified professionals available 7 days a week</p>
                 </div>
@@ -130,8 +130,8 @@ export default function Home() {
             
             <div className="grid md:grid-cols-3 gap-6 md:gap-8">
               <div className="text-center p-4 md:p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-                <div className="bg-teal-100 rounded-full p-4 inline-flex mb-4">
-                  <Settings className="h-6 w-6 md:h-8 md:w-8 text-blue-600" />
+                <div className="bg-gray-100 rounded-full p-4 inline-flex mb-4">
+                  <Settings className="h-6 w-6 md:h-8 md:w-8 text-black" />
                 </div>
                 <h3 className="text-lg md:text-xl font-bold mb-2 text-gray-800">OEM Quality Guaranteed</h3>
                 <p className="text-gray-600">
@@ -139,8 +139,8 @@ export default function Home() {
                 </p>
               </div>
               <div className="text-center p-4 md:p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-                <div className="bg-teal-100 rounded-full p-4 inline-flex mb-4">
-                  <Check className="h-6 w-6 md:h-8 md:w-8 text-blue-600" />
+                <div className="bg-gray-100 rounded-full p-4 inline-flex mb-4">
+                  <Check className="h-6 w-6 md:h-8 md:w-8 text-black" />
                 </div>
                 <h3 className="text-lg md:text-xl font-bold mb-2 text-gray-800">Comprehensive Testing</h3>
                 <p className="text-gray-600">
@@ -148,8 +148,8 @@ export default function Home() {
                 </p>
               </div>
               <div className="text-center p-4 md:p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-                <div className="bg-teal-100 rounded-full p-4 inline-flex mb-4">
-                  <Clock className="h-6 w-6 md:h-8 md:w-8 text-blue-600" />
+                <div className="bg-gray-100 rounded-full p-4 inline-flex mb-4">
+                  <Clock className="h-6 w-6 md:h-8 md:w-8 text-black" />
                 </div>
                 <h3 className="text-lg md:text-xl font-bold mb-2 text-gray-800">Same-Day Processing</h3>
                 <p className="text-gray-600">
@@ -179,7 +179,7 @@ export default function Home() {
                     </div>
                     <div className="p-4 flex justify-between items-center">
                       <h3 className="text-base md:text-lg font-semibold text-gray-800">{part.name}</h3>
-                      <ArrowRight className="h-4 w-4 md:h-5 md:w-5 text-blue-600 transform group-hover:translate-x-1 transition-transform" />
+                      <ArrowRight className="h-4 w-4 md:h-5 md:w-5 text-black transform group-hover:translate-x-1 transition-transform" />
                     </div>
                   </div>
                 </Link>
@@ -187,7 +187,7 @@ export default function Home() {
             </div>
 
             <div className="text-center mt-6 md:mt-8">
-              <Button asChild className="bg-blue-600 hover:bg-blue-700">
+              <Button asChild className="bg-black hover:bg-gray-900">
                 <Link href="/parts">View All Categories</Link>
               </Button>
             </div>
@@ -209,7 +209,7 @@ export default function Home() {
             
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                <div className="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Submit Your Request</h3>
                 <p className="text-gray-600">
                   Fill out our simple form with your vehicle details and the specific part you need. Include any additional requirements or questions.
@@ -217,7 +217,7 @@ export default function Home() {
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                <div className="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Get a Custom Quote</h3>
                 <p className="text-gray-600">
                   Our team quickly reviews your request and provides a detailed quote, including part specifications, condition rating, and warranty information.
@@ -225,7 +225,7 @@ export default function Home() {
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                <div className="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Confirm and Pay</h3>
                 <p className="text-gray-600">
                   Review your quote, confirm the details, and complete your purchase securely online or by phone. Multiple payment options available.
@@ -233,7 +233,7 @@ export default function Home() {
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                <div className="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Fast Delivery</h3>
                 <p className="text-gray-600">
                   We carefully package and ship your part with tracking information. Most orders arrive within 2-5 business days nationwide.
@@ -242,7 +242,7 @@ export default function Home() {
             </div>
             
             <div className="mt-12 text-center">
-              <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700">
+              <Button asChild size="lg" className="bg-black hover:bg-gray-900">
                 <Link href="/contact">Get Started Today</Link>
               </Button>
             </div>
@@ -287,7 +287,7 @@ export default function Home() {
               </div>
               
               <div className="text-center mt-8">
-                <Button asChild variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+                <Button asChild variant="outline" className="border-black text-black hover:bg-gray-50">
                   <Link href="/faq">View All FAQs</Link>
                 </Button>
               </div>

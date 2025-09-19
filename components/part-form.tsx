@@ -117,7 +117,7 @@ export function PartForm({ selectedPart }: PartFormProps) {
 
   return (
     <div className="bg-white rounded-lg border shadow-sm overflow-hidden">
-      <div className="bg-blue-500 text-white p-3 md:p-4 text-center text-lg md:text-xl font-semibold">
+      <div className="bg-black text-white p-3 md:p-4 text-center text-lg md:text-xl font-semibold">
         <h2>Find {selectedPart || "Part"} Now</h2>
       </div>
 
@@ -224,7 +224,7 @@ export function PartForm({ selectedPart }: PartFormProps) {
             <Button
               type="button"
               onClick={handleFindPart}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 md:py-3"
+              className="w-full bg-black hover:bg-gray-700 text-white font-semibold py-2 md:py-3"
             >
               Find My Part Now
             </Button>
@@ -302,7 +302,7 @@ export function PartForm({ selectedPart }: PartFormProps) {
 
             <Button
               type="submit"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 md:py-3"
+              className="w-full bg-black hover:bg-gray-700 text-white font-semibold py-2 md:py-3"
               disabled={isSubmitting}
             >
               {isSubmitting ? "Processing..." : "Get Part Information"}

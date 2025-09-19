@@ -115,7 +115,7 @@ export function FindPartForm() {
   return (
     <div className="bg-white rounded-lg border shadow-sm overflow-hidden">
       {step === 1 && (
-        <div className="bg-blue-600 text-white p-4 md:p-6 text-center">
+        <div className="bg-black text-white p-4 md:p-6 text-center">
           <h2 className="text-lg md:text-xl font-bold">Find Your Auto Part</h2>
           <p className="text-sm md:text-base mt-2">
             Select your vehicle details to get the part information you need.
@@ -211,7 +211,7 @@ export function FindPartForm() {
             <Button
               type="button"
               onClick={handleFindPart}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 md:py-3"
+              className="w-full bg-black hover:bg-gray-700 text-white font-semibold py-2 md:py-3"
             >
               Find Part Information
             </Button>
@@ -289,7 +289,7 @@ export function FindPartForm() {
 
             <Button
               type="submit"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 md:py-3"
+              className="w-full bg-black hover:bg-gray-700 text-white font-semibold py-2 md:py-3"
               disabled={isSubmitting}
             >
               {isSubmitting ? "Processing..." : "Get Part Information"}

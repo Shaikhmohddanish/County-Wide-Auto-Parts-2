@@ -41,7 +41,7 @@ export default function FAQPage() {
                   <h3 className="font-semibold text-lg mb-2">{category.name}</h3>
                   <Button
                     variant="link"
-                    className="text-blue-600 hover:text-blue-700"
+                    className="text-black hover:text-blue-700"
                     onClick={() => document.getElementById(category.id)?.scrollIntoView({ behavior: "smooth" })}
                   >
                     View Questions
@@ -53,7 +53,7 @@ export default function FAQPage() {
             <div className="space-y-12">
               <section id="general">
                 <h2 className="text-2xl font-bold mb-6 flex items-center">
-                  <span className="bg-teal-100 text-blue-600 p-2 rounded-full mr-3">
+                  <span className="bg-teal-100 text-black p-2 rounded-full mr-3">
                     <HelpCircle className="h-5 w-5" />
                   </span>
                   General Information
@@ -110,7 +110,7 @@ export default function FAQPage() {
 
               <section id="parts">
                 <h2 className="text-2xl font-bold mb-6 flex items-center">
-                  <span className="bg-teal-100 text-blue-600 p-2 rounded-full mr-3">
+                  <span className="bg-teal-100 text-black p-2 rounded-full mr-3">
                     <HelpCircle className="h-5 w-5" />
                   </span>
                   Parts & Specifications
@@ -165,7 +165,7 @@ export default function FAQPage() {
 
               <section id="compatibility">
                 <h2 className="text-2xl font-bold mb-6 flex items-center">
-                  <span className="bg-teal-100 text-blue-600 p-2 rounded-full mr-3">
+                  <span className="bg-teal-100 text-black p-2 rounded-full mr-3">
                     <HelpCircle className="h-5 w-5" />
                   </span>
                   Vehicle Compatibility
@@ -221,7 +221,7 @@ export default function FAQPage() {
 
               <section id="technical">
                 <h2 className="text-2xl font-bold mb-6 flex items-center">
-                  <span className="bg-teal-100 text-blue-600 p-2 rounded-full mr-3">
+                  <span className="bg-teal-100 text-black p-2 rounded-full mr-3">
                     <HelpCircle className="h-5 w-5" />
                   </span>
                   Technical Information
@@ -276,7 +276,7 @@ export default function FAQPage() {
 
               <section id="resources">
                 <h2 className="text-2xl font-bold mb-6 flex items-center">
-                  <span className="bg-teal-100 text-blue-600 p-2 rounded-full mr-3">
+                  <span className="bg-teal-100 text-black p-2 rounded-full mr-3">
                     <HelpCircle className="h-5 w-5" />
                   </span>
                   Resources & Guides
@@ -328,7 +328,7 @@ export default function FAQPage() {
 
               <section id="contact">
                 <h2 className="text-2xl font-bold mb-6 flex items-center">
-                  <span className="bg-teal-100 text-blue-600 p-2 rounded-full mr-3">
+                  <span className="bg-teal-100 text-black p-2 rounded-full mr-3">
                     <HelpCircle className="h-5 w-5" />
                   </span>
                   Contact & Support
@@ -344,7 +344,7 @@ export default function FAQPage() {
                           You can reach our support team through the contact form on our website or by emailing us at{" "}
                           <a
                             href="mailto:support@countywideautoparts.com"
-                            className="text-blue-600 underline"
+                            className="text-black underline"
                           >
                             support@countywideautoparts.com
                           </a>

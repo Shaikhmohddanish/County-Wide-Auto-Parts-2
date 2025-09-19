@@ -42,18 +42,18 @@ export default function AboutPage() {
       <SiteHeader />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="py-16 bg-blue-600 text-white">
+        <section className="py-16 bg-black text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">About County Wide Auto Parts</h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100">
+              <p className="text-xl md:text-2xl mb-8 text-gray-300">
                 Your trusted partner for quality used auto parts since 2005
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <Button asChild size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
+                <Button asChild size="lg" className="bg-white text-black hover:bg-gray-100">
                   <Link href="/contact">Contact Us</Link>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="border-white text-black hover:bg-blue-700 hover:text-white">
+                <Button asChild size="lg" variant="outline" className="border-white text-black hover:bg-gray-800 hover:text-white">
                   <Link href="/parts">Browse Our Inventory</Link>
                 </Button>
               </div>
@@ -109,8 +109,8 @@ export default function AboutPage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="bg-blue-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
-                  <ShieldCheck className="h-6 w-6 text-blue-600" />
+                <div className="bg-gray-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                  <ShieldCheck className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Quality Assurance</h3>
                 <p className="text-gray-600">
@@ -119,8 +119,8 @@ export default function AboutPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="bg-blue-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
-                  <Recycle className="h-6 w-6 text-blue-600" />
+                <div className="bg-gray-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                  <Recycle className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Environmental Responsibility</h3>
                 <p className="text-gray-600">
@@ -129,8 +129,8 @@ export default function AboutPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="bg-blue-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
-                  <Users className="h-6 w-6 text-blue-600" />
+                <div className="bg-gray-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                  <Users className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Customer-First Approach</h3>
                 <p className="text-gray-600">
@@ -139,8 +139,8 @@ export default function AboutPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="bg-blue-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
-                  <Award className="h-6 w-6 text-blue-600" />
+                <div className="bg-gray-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                  <Award className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Industry Expertise</h3>
                 <p className="text-gray-600">
@@ -149,8 +149,8 @@ export default function AboutPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="bg-blue-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
-                  <Truck className="h-6 w-6 text-blue-600" />
+                <div className="bg-gray-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                  <Truck className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Reliable Logistics</h3>
                 <p className="text-gray-600">
@@ -159,8 +159,8 @@ export default function AboutPage() {
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="bg-blue-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
-                  <BarChart3 className="h-6 w-6 text-blue-600" />
+                <div className="bg-gray-100 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                  <BarChart3 className="h-6 w-6 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Continuous Improvement</h3>
                 <p className="text-gray-600">
@@ -185,13 +185,13 @@ export default function AboutPage() {
               {milestones.map((milestone, index) => (
                 <div key={index} className="flex mb-6 last:mb-0">
                   <div className="mr-4 flex flex-col items-center">
-                    <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold">
+                    <div className="w-10 h-10 rounded-full bg-black flex items-center justify-center text-white font-bold">
                       {index + 1}
                     </div>
-                    {index < milestones.length - 1 && <div className="w-0.5 h-full bg-blue-200 mt-2"></div>}
+                    {index < milestones.length - 1 && <div className="w-0.5 h-full bg-gray-300 mt-2"></div>}
                   </div>
                   <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-100 flex-grow mb-4">
-                    <h3 className="text-lg font-bold text-blue-600 mb-1">{milestone.year}</h3>
+                    <h3 className="text-lg font-bold text-black mb-1">{milestone.year}</h3>
                     <p className="text-gray-700">{milestone.event}</p>
                   </div>
                 </div>
@@ -201,17 +201,17 @@ export default function AboutPage() {
         </section>
 
         {/* Call to Action */}
-        <section className="py-12 md:py-16 bg-blue-600 text-white">
+        <section className="py-12 md:py-16 bg-black text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Work With Us?</h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Join thousands of satisfied customers who trust County Wide Auto Parts for quality used OEM parts at wholesale prices.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button asChild size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
+              <Button asChild size="lg" className="bg-white text-black hover:bg-gray-100">
                 <Link href="/parts">Find Your Part</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-black hover:bg-blue-700 hover:text-white">
+              <Button asChild size="lg" variant="outline" className="border-white text-black hover:bg-gray-800 hover:text-white">
                 <Link href="/contact">Contact Our Team</Link>
               </Button>
             </div>

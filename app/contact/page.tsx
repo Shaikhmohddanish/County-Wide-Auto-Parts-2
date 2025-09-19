@@ -106,7 +106,7 @@ export default function ContactPage() {
                       ></textarea>
                     </div>
 
-                    <Button className="w-full bg-blue-500 hover:bg-blue-600">Send Message</Button>
+                    <Button className="w-full bg-black hover:bg-black">Send Message</Button>
                   </div>
                 </form>
               </div>

@@ -34,42 +34,32 @@ export function SiteFooter() {
   };
 
   return (
-    <footer className="relative bg-blue-950 text-white pt-12 pb-6 mt-12">
-      <div className="container mx-auto px-4">
-        {/* Newsletter Section */}
-        <div className="bg-blue-600 rounded-lg p-4 md:p-6 mb-8 md:mb-12 -mt-16 md:-mt-20 shadow-lg">
-          <div className="grid md:grid-cols-2 gap-4 md:gap-6 items-center">
-            <div>
-              <h3 className="text-lg md:text-xl font-bold mb-2">Subscribe to Our Newsletter</h3>
-              <p className="text-white/80 text-sm md:text-base">
-                Stay updated with our latest information, new arrivals, and helpful auto part guides.
+        <footer className="relative bg-gray-900 text-white pt-12 pb-6 mt-12">
+      <div className="container mx-auto px-4 relative z-10">
+        {/* Newsletter Signup */}
+        <div className="bg-black rounded-lg p-4 md:p-6 mb-8 md:mb-12 -mt-16 md:-mt-20 shadow-lg">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="text-center md:text-left">
+              <h3 className="text-lg md:text-xl font-bold text-white mb-1 md:mb-2">
+                Stay Updated
+              </h3>
+              <p className="text-white/90 text-sm md:text-base">
+                Get the latest parts inventory updates and special offers.
               </p>
             </div>
-            <form className="flex flex-col sm:flex-row gap-2" onSubmit={handleNewsletterSubmit}>
-              <Input
+            <div className="flex flex-col sm:flex-row gap-2 w-full md:w-auto">
+              <input
                 type="email"
-                placeholder="Your email address"
-                className="bg-white/10 border-white/20 text-white placeholder:text-white/60 focus:border-white"
-                value={newsletterEmail}
-                onChange={e => setNewsletterEmail(e.target.value)}
-                required
-                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
-                disabled={isSubmitting}
+                placeholder="Enter your email"
+                className="px-4 py-2 rounded text-black flex-1 min-w-48 text-sm md:text-base"
               />
               <Button
-                className="bg-white text-blue-600 hover:bg-gray-100 whitespace-nowrap"
-                type="submit"
-                disabled={isSubmitting}
+                size="sm"
+                className="bg-white text-black hover:bg-gray-100 whitespace-nowrap"
               >
-                {isSubmitting ? "Subscribing..." : "Subscribe Now"}
+                Subscribe
               </Button>
-              {newsletterStatus === "success" && (
-                <span className="text-green-200 text-xs ml-2 mt-1">Subscribed!</span>
-              )}
-              {newsletterStatus === "error" && (
-                <span className="text-red-200 text-xs ml-2 mt-1">Error. Try again.</span>
-              )}
-            </form>
+            </div>
           </div>
         </div>
 
@@ -192,7 +182,7 @@ export function SiteFooter() {
       {/* Floating Call Button */}
       <a
         href="tel:8887898397"
-        className="fixed bottom-6 left-6 z-50 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg p-4 flex items-center justify-center animate-bounce focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="fixed bottom-6 left-6 z-50 bg-black hover:bg-gray-800 text-white rounded-full shadow-lg p-4 flex items-center justify-center animate-bounce focus:outline-none focus:ring-2 focus:ring-gray-400"
         style={{ boxShadow: "0 4px 24px rgba(0,0,0,0.2)" }}
         aria-label="Call us"
       >

@@ -46,7 +46,7 @@ export default function WarrantyPoliciesPage() {
 
                   <div className="bg-gray-50 rounded-lg p-6 my-6">
                     <h3 className="flex items-center text-lg font-semibold mb-4">
-                      <Check className="h-5 w-5 text-blue-600 mr-2" /> Standard Warranty Periods
+                      <Check className="h-5 w-5 text-black mr-2" /> Standard Warranty Periods
                     </h3>
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="border-b pb-2">
@@ -87,7 +87,7 @@ export default function WarrantyPoliciesPage() {
 
                   <div className="bg-gray-50 rounded-lg p-6 my-6">
                     <h3 className="flex items-center text-lg font-semibold mb-4">
-                      <Check className="h-5 w-5 text-blue-600 mr-2" /> Extended Warranty Options
+                      <Check className="h-5 w-5 text-black mr-2" /> Extended Warranty Options
                     </h3>
                     <div className="space-y-4">
                       <div className="border-l-4 border-teal-500 pl-4 py-2">
@@ -224,7 +224,7 @@ export default function WarrantyPoliciesPage() {
                 <div className="bg-gray-50 rounded-lg p-6 my-6">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <HelpCircle className="h-5 w-5 text-blue-600" />
+                      <HelpCircle className="h-5 w-5 text-black" />
                     </div>
                     <div className="ml-3">
                       <h3 className="text-lg font-medium">Need Help?</h3>

@@ -30,7 +30,7 @@ export default function PartsPage() {
                   <div className="relative h-16 w-16 md:h-20 md:w-20 mb-2">
                     <Image src={part.image || "/placeholder.svg"} alt={part.name} fill className="object-contain" />
                   </div>
-                  <span className="text-blue-600 text-center text-sm md:text-base">{part.name}</span>
+                  <span className="text-black text-center text-sm md:text-base">{part.name}</span>
                 </div>
               </Link>
             ))}

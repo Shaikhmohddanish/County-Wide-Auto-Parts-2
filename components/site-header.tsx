@@ -26,7 +26,7 @@ export function SiteHeader() {
       )}
     >
       {/* Top Bar */}
-      <div className="bg-blue-600 text-white py-2 px-4">
+      <div className="bg-black text-white py-2 px-4">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-2 md:mb-0">
             <Phone className="h-4 w-4 mr-2" />
@@ -46,7 +46,7 @@ export function SiteHeader() {
                 alt="County Wide Auto Parts Logo"
                 className="h-12 w-12 md:h-16 md:w-16 object-contain"
               />
-              <div className="text-blue-600 font-bold text-xl md:text-2xl">County Wide Auto Parts</div>
+              <div className="text-black font-bold text-xl md:text-2xl">County Wide Auto Parts</div>
             </div>
           </Link>
 
@@ -54,15 +54,15 @@ export function SiteHeader() {
           <div className="hidden md:flex items-center space-x-6 ml-auto">
             <div className="flex items-center space-x-4">
               <div className="flex items-center bg-gray-100 px-3 py-1 rounded-full">
-                <span className="text-blue-600 mr-2">🚚</span>
+                <span className="text-black mr-2">🚚</span>
                 <span className="text-gray-700 text-sm">Free shipping on orders over $99</span>
               </div>
               <div className="flex items-center">
-                <span className="text-blue-600 mr-1">✅</span>
+                <span className="text-black mr-1">✅</span>
                 <span className="text-gray-700 text-sm">1-year warranty</span>
               </div>
             </div>
-            <Link href="/search" className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition-colors flex items-center">
+            <Link href="/search" className="bg-black hover:bg-gray-800 text-white py-2 px-4 rounded transition-colors flex items-center">
               <Search className="h-4 w-4 mr-2" />
               Search Parts
             </Link>
@@ -86,22 +86,22 @@ export function SiteHeader() {
         <div className="container mx-auto px-4">
           <ul className="hidden md:flex items-center space-x-8 py-3">
             <li>
-              <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">
+              <Link href="/" className="text-gray-700 hover:text-black font-medium">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/parts" className="text-gray-700 hover:text-blue-600 font-medium">
+              <Link href="/parts" className="text-gray-700 hover:text-black font-medium">
                 Parts Catalog
               </Link>
             </li>
             <li>
-              <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">
+              <Link href="/about" className="text-gray-700 hover:text-black font-medium">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">
+              <Link href="/contact" className="text-gray-700 hover:text-black font-medium">
                 Contact
               </Link>
             </li>
@@ -117,7 +117,7 @@ export function SiteHeader() {
               <li>
                 <Link
                   href="/"
-                  className="block py-2 text-gray-700 hover:text-blue-600 font-medium"
+                  className="block py-2 text-gray-700 hover:text-black font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Home
@@ -126,7 +126,7 @@ export function SiteHeader() {
               <li>
                 <Link
                   href="/parts"
-                  className="block py-2 text-gray-700 hover:text-blue-600 font-medium"
+                  className="block py-2 text-gray-700 hover:text-black font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Parts Catalog
@@ -135,7 +135,7 @@ export function SiteHeader() {
               <li>
                 <Link
                   href="/about"
-                  className="block py-2 text-gray-700 hover:text-blue-600 font-medium"
+                  className="block py-2 text-gray-700 hover:text-black font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   About Us
@@ -144,7 +144,7 @@ export function SiteHeader() {
               <li>
                 <Link
                   href="/contact"
-                  className="block py-2 text-gray-700 hover:text-blue-600 font-medium"
+                  className="block py-2 text-gray-700 hover:text-black font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <div className="flex items-center">
@@ -156,7 +156,7 @@ export function SiteHeader() {
               <li>
                 <Link
                   href="/search"
-                  className="flex items-center py-2 px-4 bg-blue-600 text-white rounded font-medium"
+                  className="flex items-center py-2 px-4 bg-black text-white rounded font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <Search className="h-4 w-4 mr-2" />

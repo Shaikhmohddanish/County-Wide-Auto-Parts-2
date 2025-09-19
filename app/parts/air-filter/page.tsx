@@ -24,19 +24,19 @@ export default function AirFilterPage() {
                 <h2 className="text-xl font-bold mb-4">Millions of Quality Used OEM Air Filter</h2>
                 <ul className="space-y-2">
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-black mr-2">✓</span>
                     <span>Our Used Air Filter Are Certified & Tested</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-black mr-2">✓</span>
                     <span>Free Shipping And Delivery all USA</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-black mr-2">✓</span>
                     <span>Quick Quotes that save you money</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-black mr-2">✓</span>
                     <span>Customer 100% satisfaction guaranteed</span>
                   </li>
                 </ul>

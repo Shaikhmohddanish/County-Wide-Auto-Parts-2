@@ -3,32 +3,32 @@ import { Shield, Book, Clock, ThumbsUp, Award, Search } from "lucide-react"
 export function WhyChooseUs() {
   const reasons = [
     {
-      icon: <Shield className="h-10 w-10 text-blue-600" />,
+      icon: <Shield className="h-10 w-10 text-black" />,
       title: "Reliable Information",
       description: "All our part information is thoroughly researched and verified for accuracy.",
     },
     {
-      icon: <Book className="h-10 w-10 text-blue-600" />,
+      icon: <Book className="h-10 w-10 text-black" />,
       title: "Comprehensive Database",
       description: "Access detailed specifications for thousands of auto parts across all major makes and models.",
     },
     {
-      icon: <Clock className="h-10 w-10 text-blue-600" />,
+      icon: <Clock className="h-10 w-10 text-black" />,
       title: "Up-to-Date Content",
       description: "Our information is regularly updated to include the latest parts and vehicle models.",
     },
     {
-      icon: <Search className="h-10 w-10 text-blue-600" />,
+      icon: <Search className="h-10 w-10 text-black" />,
       title: "Easy Search",
       description: "Find the exact part information you need with our intuitive search tools.",
     },
     {
-      icon: <ThumbsUp className="h-10 w-10 text-blue-600" />,
+      icon: <ThumbsUp className="h-10 w-10 text-black" />,
       title: "Expert Resources",
       description: "Access guides and resources created by automotive professionals.",
     },
     {
-      icon: <Award className="h-10 w-10 text-blue-600" />,
+      icon: <Award className="h-10 w-10 text-black" />,
       title: "Trusted Source",
       description: "Relied upon by mechanics, DIY enthusiasts, and auto parts professionals nationwide.",
     },

@@ -160,7 +160,7 @@ export default function SearchPage() {
                   </div>
                 </div>
                 <div className="mt-6">
-                  <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3">
+                  <Button type="submit" className="w-full bg-black hover:bg-gray-700 text-white font-semibold py-3">
                     Find My Part Now
                   </Button>
                 </div>
