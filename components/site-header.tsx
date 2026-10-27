@@ -30,7 +30,7 @@ export function SiteHeader() {
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-2 md:mb-0">
             <Phone className="h-4 w-4 mr-2" />
-            <Link href="tel:8887898397" className="text-sm hover:underline">Call Us: 888 789-8397</Link>
+            <Link href="tel:8884030351" className="text-sm hover:underline">Call Us: (888) 403-0351</Link>
           </div>
         </div>
       </div>

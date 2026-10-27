@@ -150,7 +150,7 @@ export default function PrivacyPolicyPage() {
                     <br />
                     Email: support@countywideautoparts.com
                     <br />
-                    Phone: 888 789-8397
+                    Phone: (888) 403-0351
                     <br />
                     Address: 127 Willets Point Blvd Corona, NY 11368
                     <br />

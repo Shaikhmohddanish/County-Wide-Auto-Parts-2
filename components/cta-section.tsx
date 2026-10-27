@@ -17,7 +17,7 @@ export function CTASection() {
               <PhoneCall className="h-8 w-8 mb-3 text-white" />
               <h3 className="text-xl font-semibold mb-2">Call Us Directly</h3>
               <p className="mb-2 text-white/80">Speak with our parts specialists:</p>
-              <p className="text-2xl font-bold text-white">888 789-8397</p>
+              <p className="text-2xl font-bold text-white">(888) 403-0351</p>
               <p className="text-sm text-white/70 mt-2">Available 7 days a week, 8am-8pm EST</p>
             </div>
             

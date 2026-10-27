@@ -165,7 +165,7 @@ export default function WarrantyPoliciesPage() {
                   <p className="mb-4">If you believe you have a warranty claim, please follow these steps:</p>
                   <ol className="list-decimal pl-6 space-y-2 mb-4">
                     <li>
-                      Contact our customer service department at 888 789-8397 or support@countywideautoparts.com
+                      Contact our customer service department at (888) 403-0351 or support@countywideautoparts.com
                       within the warranty period.
                     </li>
                     <li>Provide your order number, the part number, and a detailed description of the issue.</li>
@@ -235,7 +235,7 @@ export default function WarrantyPoliciesPage() {
                       <div className="mt-4">
                         <p className="font-medium">Contact Information:</p>
                         <p className="mt-1">
-                          Phone: 888 789-8397
+                          Phone: (888) 403-0351
                           <br />
                           Email: support@countywideautoparts.com
                           <br />
