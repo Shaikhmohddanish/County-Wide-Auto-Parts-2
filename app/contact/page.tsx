@@ -35,10 +35,10 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-medium">Phone Number</h3>
                         <a
-                          href="tel:8884030351"
+                          href="tel:8887898397"
                           className="text-yellow-500 text-lg font-bold underline underline-offset-4 hover:text-yellow-400 focus:text-yellow-400 transition-colors duration-150"
                         >
-                          (888) 403-0351
+                          (888) 789-8397
                         </a>
                       </div>
                     </div>
